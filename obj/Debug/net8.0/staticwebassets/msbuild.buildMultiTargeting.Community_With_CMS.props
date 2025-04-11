@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Community_With_CMS.props" />
+</Project>

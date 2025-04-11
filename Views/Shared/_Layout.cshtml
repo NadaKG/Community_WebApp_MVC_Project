@@ -1,0 +1,57 @@
+﻿@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+
+@inject IViewLocalizer localizer
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Community_With_CMS</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/wwwroot/css/admin.css" rel="stylesheet" />
+    <link href="~/css/output.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+ <header>
+        <nav class="bg-gray-800 text-white py-3 px-4 flex items-center justify-between flex-grow-1">
+            <div class="flex items-center space-x-4">
+                <a class="font-bold text-xl tracking-tight" asp-area="" asp-controller="Home" asp-action="Index">Community_With_CMS</a>
+                @if (ViewBag.MenuItems != null)
+                {
+                    foreach (var menuItem in ViewBag.MenuItems)
+                    {
+                        <a class="text-m py-2 px-2 hover:bg-gray-700 hover:text-white rounded leading-none rounded-full " href="@menuItem.Url">@localizer[@menuItem.Title]</a>
+                    }
+                }
+                @if (User.IsInRole("Admin"))
+                {
+                    <a class="text-sm py-2 px-4 hover:bg-gray-700 rounded" asp-area="" asp-controller="Admin" asp-action="Dashboard">@localizer["Admin Dashboard"]</a>
+                }
+            </div>
+           <div style="margin-left:400px;">
+               <partial name="_SelectLanguage"/>
+           </div>
+
+            <partial name="_LoginPartial" />
+        </nav>
+    </header>
+            @RenderBody()
+
+    <footer class="mt-auto bg-light">
+        <div class="container py-3">
+            &copy; 2024 - Community_With_CMS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.tiny.cloud/1/o74121qe2vgwn9rjx841hktrbt307eji8apqa3vaqtlkjcz4/tinymce/5/tinymce.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html> 
+ 

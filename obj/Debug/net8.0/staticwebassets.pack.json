@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Community.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Community.Web.xo1rw3npz3.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\noun-create-6793346.png",
+      "PackagePath": "staticwebassets\\noun-create-6793346.png"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\1568b94b-5625-4815-9737-94f3fa8c2dee.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\1568b94b-5625-4815-9737-94f3fa8c2dee.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\28eb33ce-7c44-4014-b44b-9d221c120745.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\28eb33ce-7c44-4014-b44b-9d221c120745.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\2a18edb1-cdea-4aed-b120-535fe5f1aa24.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\2a18edb1-cdea-4aed-b120-535fe5f1aa24.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\5b87201e-04b3-4b83-a8ce-1452c422c0c7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\5b87201e-04b3-4b83-a8ce-1452c422c0c7.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\6b7b0195-fa47-43a7-bd82-7a8913572d42.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\6b7b0195-fa47-43a7-bd82-7a8913572d42.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\73256b64-500e-4c1d-befe-03c55aa8a79b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\73256b64-500e-4c1d-befe-03c55aa8a79b.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\74fc6aa0-6b59-4565-b4c4-e96ae1fd9559.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\74fc6aa0-6b59-4565-b4c4-e96ae1fd9559.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\94c95fd7-3f92-4106-8715-140f06c98009.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\94c95fd7-3f92-4106-8715-140f06c98009.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\be0c235c-bbc2-4dae-a5b6-2eb0a1d9d35d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\be0c235c-bbc2-4dae-a5b6-2eb0a1d9d35d.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\c258d6c2-324f-4f20-b0bb-e8b3070efc9d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\c258d6c2-324f-4f20-b0bb-e8b3070efc9d.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\files\\ping.txt",
+      "PackagePath": "staticwebassets\\uploads\\files\\ping.txt"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\Screenshot 2024-03-16 010856.png",
+      "PackagePath": "staticwebassets\\uploads\\images\\Screenshot 2024-03-16 010856.png"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\banner.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\pic01.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\pic01.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\pic02.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\pic02.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\pic03.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\pic03.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\pic04.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\pic04.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\pic05.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\pic05.jpg"
+    },
+    {
+      "Id": "D:\\Workasdasd\\Community_With_CM - Copy\\wwwroot\\uploads\\images\\pic06.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\pic06.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Community.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Community.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Community.Web.props",
+      "PackagePath": "build\\Community.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Community.Web.props",
+      "PackagePath": "buildMultiTargeting\\Community.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Community.Web.props",
+      "PackagePath": "buildTransitive\\Community.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

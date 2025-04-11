@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Community_With_CMS.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-2xl font-bold mb-4">Categories</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+
+</p>
+<br/>
+
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full mx-auto text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-sm text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">Name</th>
+                <th scope="col" class="px-6 py-3 text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => category.Name)</td>
+
+                    <td class="px-4 py-4 text-center">
+                        <a href="@Url.Action("Edit", new { id = category.Id })" class="text-blue-600 hover:underline">Edit</a> |
+                        <a href="@Url.Action("Details", new { id = category.Id })" class="text-blue-600 hover:underline">Details</a> |
+                        <a href="@Url.Action("Delete", new { id = category.Id })" class="text-red-600 hover:underline">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

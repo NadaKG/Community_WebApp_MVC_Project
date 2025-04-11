@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Community_With_CMS.Models.Menu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-2xl font-bold mb-4">Menus</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+
+</p> <br />
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full mx-auto text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-sm text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">Title</th>
+                <th scope="col" class="px-6 py-3">URL</th>
+                <th scope="col" class="px-6 py-3">Position</th>
+                <th scope="col" class="px-6 py-3 text-center">Actions</th> 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var menu in Model)
+            {
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => menu.Title)</td>
+                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => menu.Url)</td>
+                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => menu.Position)</td>
+                    <td class="px-4 py-4 text-center">
+                        <a href="@Url.Action("Edit", new { id = menu.Id })" class="text-blue-600 hover:underline">Edit</a> |
+                        <a href="@Url.Action("Details", new { id = menu.Id })" class="text-blue-600 hover:underline">Details</a> |
+                        <a href="@Url.Action("Delete", new { id = menu.Id })" class="text-red-600 hover:underline">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

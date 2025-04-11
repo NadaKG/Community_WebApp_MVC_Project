@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Community_With_CMS.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1 class="text-2xl font-bold mb-4"> Posts </h1> <br />
+<p>
+    <div class="card" style="width:12rem;">
+        <img src="/noun-create-6793346.png" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Create New Post</h5>
+            <a asp-action="Create" class="btn btn-primary stretched-link">Create</a>
+        </div>
+    </div>
+</p>
+<br />
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full mx-auto text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-sm text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">Subject</th>
+                <th scope="col" class="px-6 py-3">Category</th>
+                <th scope="col" class="px-6 py-3">Date</th>
+                <th scope="col" class="px-6 py-3">User</th>
+                <th scope="col" class="px-6 py-3">IsVisible</th>
+                <th scope="col" class="px-6 py-3">Image</th>
+                <th scope="col" class="px-6 py-3">File</th>
+                <th scope="col" class="px-6 py-3 text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in Model)
+            {
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => post.Subject)</td>
+@*                     <td class="px-6 py-4">@Html.Raw(post.Content)</td>
+ *@                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => post.Category.Name)</td>
+                    <td class="px-6 py-4">@post.Date.ToString("MM/dd/yyyy")</td>
+                    <td class="px-6 py-4">@Html.DisplayFor(modelItem => post.User.FirstName)</td>
+                    <td class="px-6 py-4">@(post.IsVisible ? "Yes" : "No")</td>
+                    <td class="px-6 py-4"><img src="@post.ImageUrl" alt="Post Image" style="height:100px;" /></td>
+                    <td class="px-6 py-4">
+                        @{
+                            var encodedFileUrl = Url.Content(post.FileUrl);
+                        }
+                        <a href="@encodedFileUrl" target="_blank">Download File</a>
+                    </td>
+
+                    <td class="px-4 py-4 text-center">
+                        <a href="@Url.Action("Edit", new { id = post.Id })" class="text-blue-600 hover:underline">Edit</a> |
+                        <a href="@Url.Action("Details", new { id = post.Id })" class="text-blue-600 hover:underline">Details</a> |
+                        <a href="@Url.Action("Delete", new { id = post.Id })" class="text-red-600 hover:underline">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

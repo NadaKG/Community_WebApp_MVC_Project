@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+<div class="flex items-center space-x-2">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        var firstNameClaim = User.Claims.FirstOrDefault(c => c.Type == "FirstName");
+        var firstName = firstNameClaim != null ? firstNameClaim.Value : "User";
+        <div>
+            <a class="text-sm py-2 px-4 text-white hover:bg-gray-700 rounded" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello, @firstName</a>
+        </div>
+        <div>
+            <form method="post" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="text-sm py-2 px-4 text-white hover:bg-gray-700 rounded">Logout</button>
+            </form>
+        </div>
+    }
+    else
+    {
+        <div>
+            <a class="text-sm py-2 px-4 text-white hover:bg-gray-700 rounded" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </div>
+        <div>
+            <a class="text-sm py-2 px-4 text-white hover:bg-gray-700 rounded" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </div>
+    }
+</div>
